@@ -19,7 +19,7 @@
 }
 
 html {
-    font-size: 62.5%;   /* 1rem == 10px */
+    font-size: 62.5%; /* 1rem == 10px */
 }
 
 body {
@@ -30,7 +30,11 @@ body {
     font-size: 1.6rem;
     line-height: 45px;
     margin: 0;
-    padding-left: 3rem;
+
+}
+
+article {
+    padding-left: 4rem;
 }
 
 
@@ -66,4 +70,34 @@ h3 {
 .légende {
     color: black;
     font-size: 1.2rem;
+}
+
+
+/* Backgound */
+
+header,
+.effet-de-serre,
+.data-center,
+.le-saviez-vous{
+    background-color: #282658;
+}
+
+footer {
+    background-color: black;
+}
+
+.citation>div,
+.exemple,
+.cookies {
+    background-color: #2E91F7;
+}
+
+.article-scientifique {
+    background-color: #CCF0F8;
+}
+
+.introduction>p {
+    background-color: rgba(0,0,0,0.6);
+}
+
 }
