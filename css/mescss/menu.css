@@ -1,3 +1,8 @@
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
 .nav-toggle {
     width: 10rem;
     height: 9rem;
