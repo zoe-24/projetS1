@@ -1,11 +1,11 @@
 header {
-    height: 18rem;
+    height: 20rem;
 }
 
 header img {
     width: 18%;
     padding-left: 5rem;
-    padding-top: 6rem;
+    padding-top: 6.5rem;
     display: inline-block;
     float: left;
 }
@@ -15,9 +15,5 @@ header>h2 {
     margin: 0;
     font-size: 5rem;
     padding-left: 4rem;
-    padding-top: 8rem;
-}
-
-header>nav {
-    float: right;
+    padding-top: 7rem;
 }

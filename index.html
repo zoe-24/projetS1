@@ -2,24 +2,28 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Accueil</title>
+    <title>Slow Down - Accueil</title>
 
     <link rel="stylesheet" href="css/lib/normalize.css">
     <link rel="stylesheet" href="css/mescss/mise-en-page.css">
     <link rel="stylesheet" href="css/mescss/styles-typographie-couleurs.css">
+    <link rel="stylesheet" href="css/mescss/menu.css">
     <script src="https://kit.fontawesome.com/2411df4fdb.js" crossorigin="anonymous"></script>
 
 </head>
-<body class="accueil">
+<body class="">
     <header>
         <a href="index.html"><img src="images/logos-icones/logo.png" alt="Slow Down"></a>
         <h2>Slow Down</h2>
-        <nav>
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
+        <nav class="menu">
             <h2>Menu</h2>
             <ul>
                 <li><a href="la-face-cachee-de-l-espionnage.html">La face cachée de l'espionnage</a></li>
                 <li><a href="la-pollution-numerique.html">La pollution numérique</a></li>
-                <li><a href="surfons-responsable-pour-la-planete.html">Surfons responsable pour la planète</a></li>
+                <li><a href="surfons-responsable-pour-la-planete.html">Surfons&nbsp;responsable pour&nbsp;la&nbsp;planète</a></li>
                 <li><a href="me-contacter.html">Me contacter</a></li>
                 <li><a href="a-propos.html">A propos</a></li>
             </ul>

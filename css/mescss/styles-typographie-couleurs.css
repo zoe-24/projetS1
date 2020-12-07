@@ -28,7 +28,7 @@ body {
     color: black;
     font-family: Krub, sans-serif;
     font-size: 1.6rem;
-    line-height: 45px;
+    line-height: 8rem;
     margin: 0;
 
 }
@@ -98,4 +98,12 @@ footer {
 
 .introduction>p {
     background-color: rgba(0,0,0,0.6);
+}
+
+
+
+
+nav a {
+    color: black;
+    text-decoration: none;
 }
