@@ -30,11 +30,11 @@ img {
 
 /* Chapeau */
 
-.chapeau img {
-    margin-left: -5rem;
-    width: calc(100% + 10rem);
+    .chapeau img {
+        margin-left: -5rem;
+        width: calc(100% + 10rem);
 
-}
+    }
 
 .chapeau h2 {
     width: 80rem;
@@ -56,3 +56,45 @@ img {
 .chapeau p {
     margin-top: 21rem;
 }
+
+
+/* Page d'accueil */
+
+/*.introduction {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/image1.jpg);
+    background-size: 100%;
+    background-color: transparent;
+}*/
+
+.tweet_1 img, .tweet_2 img, .tweet_3 img {
+    width: 42rem;
+    clip-path: circle(50%);
+    shape-outside: circle(56%) border-box;
+    margin: 1rem;
+}
+
+.tweet_1 img, .tweet_3 img {
+    float: left;
+    margin-left: -16rem;
+    margin-right: 3rem;
+    /*shape-outside: circle(55%) border-box;*/
+}
+
+.tweet_2 img {
+    float: right;
+    margin-right: -16rem;
+    margin-left: 3rem;
+}
+
+.tweet_1 p, .tweet_3 p {
+    margin-bottom: 6rem;
+}
+
+.tweet_2 p {
+    text-align: right;
+    margin-bottom: 6rem;
+}
+
+
