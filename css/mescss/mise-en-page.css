@@ -98,3 +98,25 @@ img {
 }
 
 
+.tweet_1 a, .tweet_2 a, .tweet_3 a {
+    color: #00B412;
+    text-decoration: none;
+    font-size: 5.5rem;
+    font-weight: bold;
+    padding: 2rem 7rem;
+    border: solid #00B412 8px;
+    border-radius: 10rem;
+}
+
+.tweet_1 a, .tweet_3 a {
+    margin-left: 10rem;
+}
+
+.tweet_2 a {
+    margin-left: 10rem;
+}
+
+
+.tweet_1, .tweet_2, .tweet_3 {
+    margin-bottom: 15rem;
+}
