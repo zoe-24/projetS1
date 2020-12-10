@@ -1,6 +1,7 @@
 nav a {
     color: black;
     text-decoration: none;
+    font-weight: normal;
 }
 
 .nav-toggle {
@@ -93,3 +94,13 @@ nav a {
 .menu-open .menu li:nth-child(n+3) { transition-delay: .4s; }
 .menu-open .menu li:nth-child(n+4) { transition-delay: .45s; }
 .menu-open .menu li:nth-child(n+5) { transition-delay: .5s; }
+
+.menu li {
+    width: 86rem;
+}
+
+.menu h2 {
+    width: 30rem;
+    margin: 0px;
+    padding: 7rem 34rem;
+}

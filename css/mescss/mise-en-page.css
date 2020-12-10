@@ -131,7 +131,7 @@ iframe {
 /* Footer */
 
 footer {
-    padding: 5rem;
+    padding: 5rem 5rem 10rem;
     margin-top: 4rem;
 }
 
@@ -148,7 +148,7 @@ footer img {
     padding-top: 5rem;
 }
 
-footer p:nth-child(n+3) {
+.mention {
     padding-top: 9rem;
     margin-left: 17rem;
 }
@@ -156,4 +156,38 @@ footer p:nth-child(n+3) {
 footer a {
     font-weight: normal;
     text-decoration: none;
+}
+
+
+footer li {
+    list-style: none;
+    font-size: 7rem;
+}
+
+.reseaux-sociaux>li>a {
+    color: white;
+    float: right;
+}
+
+footer span {
+    clip: rect(1px,1px,1px,1px);
+    position: absolute;
+    display: block;
+}
+
+footer ul {
+    margin: 0;
+}
+
+.fa-snapchat-ghost {
+    padding-right: 3rem;
+}
+
+.fa-instagram {
+    padding-right: 3rem;
+}
+
+.fa-envelope {
+    font-size: 8rem;
+    margin-top: -0.5rem;
 }
