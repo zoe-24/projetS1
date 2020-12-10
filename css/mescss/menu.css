@@ -5,11 +5,11 @@ nav a {
 }
 
 .nav-toggle {
-    width: 10rem;
-    height: 9rem;
+    width: 4rem;
+    height: 3.6rem;
     position: absolute;
-    top: 5.5rem;
-    right: 7rem;
+    top: 2.2rem;
+    right: 2.8rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,18 +22,18 @@ nav a {
     content: "";
     background-color: white;
     width: 100%;
-    height: 0.8rem;
+    height: 3px;
     position: absolute;
     left: 0;
     transition: all .4s ease-in-out;
 }
 
 .nav-toggle-bar::before {
-    top: -3rem;
+    top: -1.2rem;
 }
 
 .nav-toggle-bar::after {
-    top: 3rem;
+    top: 1.2rem;
 }
 
 .menu-open .nav-toggle-bar {
@@ -55,7 +55,8 @@ nav a {
     left: 0;
     bottom: 0;
     right: 0;
-    font-size: 5.5rem;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
     text-align: center;
     transform: translateX(100vw);
     transition: all .4s;
@@ -78,7 +79,7 @@ nav a {
 }
 
 .menu li {
-    padding: 6rem;
+    padding: 2.5rem 1.5rem;
     transform: translateX(3rem);
     opacity: 0;
     transition: all .3s ease;
@@ -96,11 +97,11 @@ nav a {
 .menu-open .menu li:nth-child(n+5) { transition-delay: .5s; }
 
 .menu li {
-    width: 86rem;
+    width: 34.4rem;
 }
 
 .menu h2 {
-    width: 30rem;
+    width: fit-content;
     margin: 0px;
-    padding: 7rem 34rem;
+    padding: 2.8rem 14.2rem;
 }
