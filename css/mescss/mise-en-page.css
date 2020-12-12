@@ -284,3 +284,22 @@ footer ul {
 .le-saviez-vous p, .le-saviez-vous h4 {
     padding-left: 3.2rem;
 }
+
+
+
+/* Bouton "page suivante" */
+
+.page-suivante a {
+    color: #00B412;
+    text-decoration: none;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 0.8rem 2.3rem;
+    border: solid #00B412 3px;
+    border-radius: 4rem;
+}
+
+.page-suivante {
+    margin: 5rem;
+    text-align: center;
+}
