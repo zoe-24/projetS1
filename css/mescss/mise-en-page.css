@@ -199,9 +199,9 @@ footer ul {
     width: 29.5rem;
 }
 
-.exergue q, .exergue p, h4 {
+.exergue p, h4 {
     padding: 1.6rem;
-    margin: 0px;
+    margin: 0;
 }
 
 
@@ -327,4 +327,27 @@ footer ul {
 
 .le-saviez-vous {
     margin-bottom: 5rem;
+}
+
+
+
+/* Article scientifique */
+
+.article-scientifique {
+    padding: 2rem;
+    margin-bottom: -1.6rem;
+}
+
+.article-scientifique h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.article-scientifique p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.article-scientifique p:last-of-type {
+    margin-bottom: 0;
 }
