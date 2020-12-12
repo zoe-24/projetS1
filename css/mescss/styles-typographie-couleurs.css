@@ -80,9 +80,9 @@ a {
 /* Backgound */
 
 header,
-.effet-de-serre,
-.data-center,
-.le-saviez-vous{
+.effet-de-serre>div,
+.data-center>div,
+.le-saviez-vous>div {
     background-color: #282658;
 }
 
@@ -91,8 +91,8 @@ footer {
 }
 
 .citation>div,
-.exemple,
-.cookies {
+.exemple>div,
+.cookies>div {
     background-color: #2E91F7;
 }
 

@@ -191,3 +191,96 @@ footer ul {
 .fab.fa-instagram {
     padding-right: 1.2rem;
 }
+
+
+/* Mises en exergue */
+
+.exergue {
+    width: 29.5rem;
+}
+
+.exergue q, .exergue p, h4 {
+    padding: 1.6rem;
+    margin: 0px;
+}
+
+
+.citation p:first-of-type {
+    width: 21.8rem;
+    font-style: italic;
+    padding-top: 1.3rem;
+}
+
+.citation p:last-of-type {
+    text-align: right;
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+
+.citation img {
+    width: 11rem;
+    float: right;
+    margin-top: -24rem;
+    margin-right: -2.8rem;
+    shape-outside: border-box;
+}
+
+.citation {
+    border-left: dashed #2E91F7 2px;
+    border-bottom: dashed #2E91F7 2px;
+}
+
+.exergue {
+    padding: 1rem;
+}
+
+.effet-de-serre p,
+.data-center p,
+.exemple p,
+.cookies p,
+.le-saviez-vous p {
+    padding-top: 0;
+}
+
+.exergue h4 {
+    text-align: center;
+}
+
+.effet-de-serre {
+    border-right: dashed #282658 2px;
+    border-top: dashed #282658 2px;
+}
+
+.data-center p:last-of-type {
+    font-style: italic;
+}
+
+.data-center {
+    border-right: dashed #282658 2px;
+    border-bottom: dashed #282658 2px;
+}
+
+.exemple {
+    float: right;
+    border-left: dashed #2E91F7 2px;
+    border-top: dashed #2E91F7 2px;
+}
+
+.cookies {
+    float: right;
+    border-left: dashed #2E91F7 2px;
+    border-bottom: dashed #2E91F7 2px;
+    margin-bottom: 3rem;
+}
+
+.le-saviez-vous {
+    padding-left: 0;
+    margin-left: -2rem;
+    border-right: dashed #282658 2px;
+    border-top: dashed #282658 2px;
+    border-bottom: dashed #282658 2px;
+}
+
+.le-saviez-vous p, .le-saviez-vous h4 {
+    padding-left: 3.2rem;
+}
