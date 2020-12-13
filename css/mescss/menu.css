@@ -4,6 +4,11 @@ nav a {
     font-weight: normal;
 }
 
+nav a:hover {
+    color: black;
+    background-color: transparent;
+}
+
 .nav-toggle {
     width: 4rem;
     height: 3.6rem;

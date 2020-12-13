@@ -157,12 +157,6 @@ footer>p:first-of-type {
     margin-top: -2.9rem;
 }
 
-footer a {
-    font-weight: normal;
-    text-decoration: none;
-}
-
-
 footer li {
     display: inline-block;
     list-style: none;
