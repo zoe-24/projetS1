@@ -363,3 +363,59 @@ footer ul {
 .bouton-contact {
     text-align: center;
 }
+
+
+
+/* Page "A propos" */
+
+.a-propos {
+    padding: 2rem;
+}
+
+.a-propos h2 {
+    width: 30rem;
+    text-align: center;
+    border: solid black 1px;
+    margin: 1.65rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.a-propos h3 {
+    margin-top: 3.6rem;
+}
+
+.a-propos .bouton-contact {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.autres_projets img {
+    width: 15rem;
+}
+
+a[href="http://projets1.benjasauvelemonde.fr"] img{
+    width: 11rem;
+}
+
+.autres_projets ul {
+    padding: 0 6.8rem;
+    width: 20rem;
+    align-content: center;
+}
+
+.autres_projets li {
+    list-style: none;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.autres_projets a {
+    color: black;
+    text-decoration: none;
+}
+
+.autres_projets a:hover {
+    color: black;
+    background-color: transparent;
+}
