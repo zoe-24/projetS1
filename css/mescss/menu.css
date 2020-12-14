@@ -54,7 +54,7 @@ nav a:hover {
 }
 
 .menu {
-    background: linear-gradient(#2E91F7, 20%, white);
+    background-color: #CCF0F8;
     position: fixed;
     top: 0;
     left: 0;
@@ -107,10 +107,8 @@ nav a:hover {
 
 .menu>img {
     width: 10rem;
-    margin: 0;
-    padding: 2.8rem;
-    padding-left: 7rem;
-    padding-right: 10rem;
+    padding: 2.5rem 2.8rem 2.8rem;
+    margin: 0 11rem;
 }
 
 
@@ -129,10 +127,15 @@ nav a:hover {
     padding-top: 15rem;
 }
 
-.menu a[href="index.html"]>img {
-    width: 4rem;
-    height: 4rem;
-    padding-top: 2rem;
-    padding-left: 2.6rem;
+
+
+
+
+.menu-open, .menu {
+    overflow-x: hidden;
 }
 
+
+.menu ul {
+
+}
