@@ -1,0 +1,34 @@
+.carousel img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel h3 {
+    color: white;
+    margin-top: 0;
+    text-align: center;
+}
+
+.carousel {
+    background-color: #282658;
+    padding-top: 2rem;
+    /*padding-bottom: 1rem;*/
+    margin-bottom: -2rem;
+}
+
+ul.carousel-items {
+    list-style: none;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    padding: 0 0 3rem;
+    margin-bottom: 2rem;
+}
+
+li.carousel-item {
+    flex: 1 0 22rem;
+    margin-right: 2rem;
+    scroll-snap-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
