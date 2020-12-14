@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-Personnalisée_1">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="Personnalisée_1" data-name="Personnalisée – 1" clip-path="url(#clip-Personnalisée_1)">
+    <path id="chevron-down-solid" d="M207.029,381.476,12.686,187.132c-9.373-9.373-13.571-18.657-7.5-23.8l8.058-8.525c9.927-5.839,15.613.008,24.992,9.343l185.908,186.1L412.12,162.016c9.379-9.335,17.148-12.2,24.587-5.978l5.46,5.978c4.312,4.591,4.59,12.8-2.921,20.309L240.971,381.476a24,24,0,0,1-33.942,0Z" transform="translate(26.344 -6.494)" fill="#fff"/>
+  </g>
+</svg>

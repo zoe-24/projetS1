@@ -59,13 +59,40 @@ img {
 
 /* Page d'accueil */
 
-/*.introduction {
+.introduction {
     width: 100%;
-    height: 100%;
-    background-image: url(images/image1.jpg);
+    height: 728px;
+    background-image: url(images-interface/image1.jpg);
     background-size: 100%;
     background-color: transparent;
-}*/
+}
+
+.introduction h1 {
+    margin-top: 0;
+    padding-top: 3.5rem;
+    text-align: center;
+}
+
+.introduction h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.introduction>p {
+    margin: 15rem 2rem 2rem;
+    padding: 1.5rem 2rem;
+}
+
+.introduction div {
+    font-size: 3.5rem;
+    font-weight: lighter;
+}
+
+.chevron {
+    width: 5rem;
+    margin-left: 16.2rem;
+    margin-right: 16.2rem;
+}
 
 .tweet_1 img, .tweet_2 img, .tweet_3 img {
     width: 16.8rem;
