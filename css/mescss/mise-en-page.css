@@ -395,17 +395,17 @@ footer ul {
 
 /* Page "A propos" */
 
-.a-propos {
+.a-propos, .me-contacter {
     padding: 2rem;
 }
 
-.a-propos h2 {
+.a-propos h2, .me-contacter h2 {
     width: 30rem;
     text-align: center;
     border: solid black 1px;
-    margin: 1.65rem;
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
+    margin: 1.6rem auto;
 }
 
 .a-propos h3 {
@@ -445,4 +445,58 @@ a[href="http://projets1.benjasauvelemonde.fr"] img{
 .autres_projets a:hover {
     color: black;
     background-color: transparent;
+}
+
+
+
+/* Page "me contacter" */
+
+.me-contacter form {
+    background-color: #CCF0F8;
+    margin: 4rem auto 0;
+    padding: 0 2rem 2rem;
+}
+
+
+label {
+    display: inline-block;
+    width: 5rem;
+
+}
+
+input, textarea, button {
+    width: 295px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input {
+    height: 3rem;
+}
+
+textarea {
+    height: 15rem;
+}
+
+.button {
+    display: block;
+    text-align: right;
+}
+
+button {
+    width: 12.5rem;
+    height: 5rem;
+    font-size: 2rem;
+    color: #00B412;
+    font-weight: bold;
+    background-color: #CCF0F8;
+    border-color: #00B412;
+    border-radius: 10px;
+    border-width: 3px;
+    margin-top: 1em;
+}
+
+button:hover {
+    background-color: #00B412;
+    color: white;
 }

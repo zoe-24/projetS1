@@ -32,17 +32,35 @@
     </nav>
 </header>
 
-<main>
+<main class="me-contacter">
     <h2>Me contacter</h2>
 
-    <div class="contact">
-        <p>Nom</p>
-        <p>Prénom</p>
-        <p>Couriel</p>
-        <p>Objet</p>
-        <p>Message</p>
-        <p>Envoyer</p>
-    </div>
+    <form>
+        <div>
+            <label for="nom"></label>
+            <input type="text" id="nom" placeholder=" Nom" name="nom_utilisateur">
+        </div>
+        <div>
+            <label for="prénom"></label>
+            <input type="text" id="prénom" placeholder=" Prénom" name="prénom_utilisateur">
+        </div>
+        <div>
+            <label for="mail"></label>
+            <input type="email" id="mail" placeholder=" E-mail" name="mail_utilisateur">
+        </div>
+        <div>
+            <label for="objet"></label>
+            <input type="text" id="objet" placeholder=" Objet" name="objet">
+        </div>
+        <div>
+            <label for="message"></label>
+            <textarea name="message" id="message" placeholder=" Message" cols="30" rows="10"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Envoyer</button>
+        </div>
+    </form>
+
 </main>
 
 <footer>
