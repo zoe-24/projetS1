@@ -131,11 +131,11 @@ nav a:hover {
 
 
 
-.menu-open, .menu {
+/*.menu-open, .menu {
     overflow-x: hidden;
 }
 
 
-.menu ul {
-
-}
+/*body, html, .menu {
+    overflow: hidden;
+}*/
